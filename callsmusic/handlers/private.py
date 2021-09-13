@@ -13,7 +13,7 @@ async def start(_, message: Message):
         'I am Tlgrm Music bot, '
         'I let you play music in group calls.'
         '\n\nThe commands I currently support are:\n\n'
-        '/stop - clear the queue and remove the userbot from the call',
+        '<b>/stop</b> - clear the queue and remove the userbot from the call',
         reply_markup=InlineKeyboardMarkup(
             [
                 [
