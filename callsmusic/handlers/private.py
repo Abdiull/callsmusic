@@ -13,12 +13,6 @@ async def start(_, message: Message):
         'I am Tlgrm Music bot, '
         'I let you play music in group calls.'
         '\n\nThe commands I currently support are:\n\n'
-        '/play - play the replied audio file or YouTube video\n'
-        '/pause - pause the audio stream\n'
-        '/resume - resume the audio stream\n'
-        '/skip - skip the current audio stream\n'
-        '/mute - mute the userbot\n'
-        '/unmute - unmute the userbot\n'
         '/stop - clear the queue and remove the userbot from the call',
         reply_markup=InlineKeyboardMarkup(
             [
