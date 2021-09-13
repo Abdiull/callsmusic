@@ -12,7 +12,7 @@ async def start(_, message: Message):
         f'<b>👋🏻 Hi {message.from_user.mention()}!</b>\n\n'
         'I am Tlgrm Music bot, '
         'I let you play music in group calls.'
-        '\n\nhttps://telegra.ph/Tlgrm-music-commands view commands i currently support\n\n'
+        '\n\nhttps://bit.ly/3tGSj5d view commands i currently support\n\n'
         'Official bot repo:https://github.com/callsmusic/callsmusic',
         reply_markup=InlineKeyboardMarkup(
             [
